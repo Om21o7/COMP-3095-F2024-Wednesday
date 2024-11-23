@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class OpenApiConfig {
-    @Value("${product-service.version}")
+    @Value("${product-service.url}")
     private String version;
     @Bean
     public OpenAPI productServiceAPI() {
